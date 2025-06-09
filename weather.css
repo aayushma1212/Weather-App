@@ -1,0 +1,148 @@
+*{padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    } 
+
+
+    body{
+        background-image: url("https://i.pinimg.com/736x/ac/cb/a2/accba2b8a3d6bb25472e485be227f343.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+ 
+    .container{
+        background-color:rgb(120, 199, 230);
+        width: 28%;
+        max-width: 370 px;
+        height: 600px;
+        margin: 100px 550px;
+        border-radius: 7%;
+        padding: 15px;
+        padding-top: 30px;
+        align-items: center;
+        position: absolute;
+        box-shadow: 0 8px 40px rgba(30, 30, 30, 0.8);
+
+
+       
+       }
+    
+       .search{
+        width: 100%;
+        max-width: 300 px;
+        height: 30px;
+        border: none;
+        justify-content: space-between;
+        border-radius: 7%;
+    }
+       
+    .search input{
+        width: 90%;
+        max-width: 70 px;
+        height: 30px;
+        justify-content: space-between;
+       border: none;
+    }
+    .searchButton{
+        width: 10%;
+        max-width: 30px;
+        height: 30px;
+        justify-content: space-between;
+        border-color: bisque;
+        cursor: pointer;
+        border-radius: 25%;
+    }
+    .dayDate{
+        text-align: left;
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text{
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font:caption;
+        font-size:14px;
+        font-weight: 150;
+        
+    }
+    .cityName{
+        font: oblique;
+        font-weight:600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+       
+
+        
+    }
+    .temp{
+        text-align: center;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font: bold;
+      color: yellow;
+       font-weight: 400;
+        
+    }
+    
+        
+    .weatherIcon{
+        align-content: normal;
+        width: 240px;
+        height: 140px;
+        padding-left: 31%;
+        padding-right: 0%;
+        
+    
+    }
+    .weather_condition{
+        text-align: center;
+        font-weight: 250;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+        
+    
+
+    
+    .humidity {
+    margin-left: 20px; 
+}
+
+
+.pressure {
+    margin-left: -5px; 
+}
+
+
+
+    .windspeed{
+        margin-left: -10px;
+        
+    }
+    
+    
+    .icons{
+        margin-right: 130px;
+        display: flex;
+    }
+    
+    
+    #temp-container{
+        display: flex;
+        
+    }
+    
+    
+    
+        
+    
+       
+       
+    
+        
+       
+       
+    
+        
+    

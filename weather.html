@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <h2>WEATHER APP</h2> <br><br>
+        <div class="search">
+            <input type="text" id="city" name="city" placeholder="Search for a city" class="search-input">    
+            <button class="searchButton" title="Click"><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png" alt="searchicon" width="15px" height="15px" id="search-button"></button>
+        </div> <br>
+    
+
+    
+        <div class="info">
+            <h class="dayDate"></h>
+            <h3 class="text">TODAYS FORECAST</h3><br> <br>
+            <h2 class="cityName"></h2>
+            <img src="" class="weatherIcon" alt="icon">
+            <h1 class="temp"></h1> <br>
+            <h4 class="weather_condition"></h4> <br><br><br>
+        </div>
+
+        <div id="temp-container">
+            <div class="humidity">      
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="humidity"  height="30px" width="30px" alt="humidity" class="icons">
+                <p></p>
+                <p1>Humidity</p>
+            </div>
+            <div class="windspeed">
+                <img src="https://cdn-icons-png.flaticon.com/512/54/54298.png" alt="windspeed"  height="30px" width="30px" alt="windspeed" class="icons">
+                <p>5m/s</p>
+                <p2>Windspeed</p>    
+            </div>
+            <div class="pressure">
+                <img src="https://static-00.iconduck.com/assets.00/pressure-icon-2048x2048-ucftza2t.png" alt="pressure"   height="30px" width="30px" alt="pressure" class="icons">
+                <p>12hPa</p>
+                <p3>Pressure</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+
+</body>
+</html>
+
